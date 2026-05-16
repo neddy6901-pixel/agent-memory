@@ -22,3 +22,11 @@
 - [[discord-gateway-lesson]] — Check processes with ps/pgrep, not hermes CLI
 - [[video-research-lesson]] — Fetch transcripts before assuming content
 - Source: Mistakes made during 2026-05-16 session, corrected by James
+
+## [2026-05-16] create | Coding agent memory + new lesson
+- Created [[coding-agent-memory]] — explains how Coder Agent uses persistent memory
+- Created [[git-identity-lesson]] — git needs user.email/user.name before commits
+- Patched `agent-role-coder` skill to include Karpathy wiki memory protocol
+- Updated index.md
+- Total pages: 10
+- Source: Session-2026-05-16 — James wants coding agents to compound knowledge
