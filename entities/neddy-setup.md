@@ -23,6 +23,13 @@ The agent instance configured by James. Name: Neddy.
 - **Trading research**: `~/wiki` — trading/investing knowledge base, syncs to GitHub
 - **Agent memory**: `~/memory` — this vault, for agent mistakes, tasks, preferences
   - Syncs to GitHub separately so James can browse on iPad
+  - Coder Agent also reads/writes here (see [[coding-agent-memory]])
+
+## Agent Roles
+- **Main (Neddy)**: You are talking to me now. Coordinates all tasks.
+- **Coder**: Spawns for coding tasks. Reads `~/memory` at session start, writes lessons back.
+- **Trader**: Spawns for trading research. Reads `~/wiki` for market context.
+- **Engineer**: Spawns for physical design/simulation tasks.
 
 ## Gateway Setup
 - **Discord**: Bot `Neddy#0792`
